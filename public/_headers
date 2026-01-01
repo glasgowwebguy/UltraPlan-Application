@@ -1,0 +1,26 @@
+# JavaScript and CSS assets with proper MIME types
+/*.js
+  Content-Type: application/javascript
+
+/*.mjs
+  Content-Type: application/javascript
+
+/*.css
+  Content-Type: text/css
+
+# Assets directory
+/assets/*.js
+  Content-Type: application/javascript
+
+/assets/*.mjs
+  Content-Type: application/javascript
+
+/assets/*.css
+  Content-Type: text/css
+
+# Source maps
+/*.map
+  Content-Type: application/json
+
+/assets/*.map
+  Content-Type: application/json

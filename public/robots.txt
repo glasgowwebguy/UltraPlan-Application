@@ -1,0 +1,22 @@
+# UltraPlan Robots.txt
+# https://ultraplan.run
+
+User-agent: *
+Allow: /
+Allow: /community
+Allow: /guide
+Allow: /privacy
+
+# Disallow admin and auth routes
+Disallow: /admin
+Disallow: /panel
+Disallow: /auth/
+
+# Disallow individual race pages (user content, dynamic)
+Disallow: /race/
+
+# Sitemap location
+Sitemap: https://ultraplan.run/sitemap.xml
+
+# Crawl-delay for politeness
+Crawl-delay: 1

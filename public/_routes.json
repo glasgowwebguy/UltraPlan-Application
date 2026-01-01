@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "description": "Route configuration for Cloudflare Pages",
+  "include": [
+    "/__/auth/*",
+    "/api/*"
+  ],
+  "exclude": []
+}
